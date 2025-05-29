@@ -1,13 +1,13 @@
 
 enum LogLevel {
         //% block="info"
-        Info="INF",
+        Info,
         //% block="debug"
-        Debug="DBG",
+        Debug,
         //% block="warning"
-        Warning="WRN",
+        Warning,
         //% block="error"
-        Error="ERR"
+        Error
     }
 
 
@@ -69,7 +69,7 @@ namespace neopixel {
     * @param lvl LogLevel
     */    
     //% blockId=log block="message %msg|level %lvl"
-    export function emit_log_message ( message: string, level: LogLevel = LogLevel.Info) {
+    export function emit_log_message ( message: string, level: LogLevel : number = LogLevel.Info) {
         }
 
     /**
