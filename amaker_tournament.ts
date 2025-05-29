@@ -31,7 +31,7 @@ enum NeoPixelColors {
  */
 enum NeoPixelMode {
     //% block="RGB (GRB format)"
-    RGB = 1,
+    RGB = 1
 
 }
 
