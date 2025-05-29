@@ -69,7 +69,7 @@ namespace neopixel {
     * @param lvl LogLevel
     */    
     //% blockId=log block="message %msg|level %lvl"
-    export function emit_log_message ( message: string, level: LogLevel : number = LogLevel.Info) {
+    export function emit_log_message ( message: string, level: number = LogLevel.Info) {
         }
 
     /**
