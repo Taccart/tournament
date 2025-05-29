@@ -36,10 +36,9 @@ enum NeoPixelMode {
 }
 
 //% weight=5 color=#2699BF icon="\uf110"
-namespace amaker_bot {
+namespace amakerbot {
     //% blockId="log_level" enumName="message|level"
     //% enumName="CommunicationChannel"
-
     export log ( message: string, level: LogLevel = LogLevel.Info) {
         }
 
