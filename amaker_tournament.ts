@@ -35,19 +35,16 @@ enum NeoPixelMode {
 
 }
 
-//% weight=5 color=#2699BF icon="\uf110"
-namespace amakerbot {
-    //% blockId="log_level" enumName="message|level"
-    //% enumName="CommunicationChannel"
-    export log ( message: string, level: LogLevel = LogLevel.Info) {
-        }
-
-}
 /**
  * Functions to operate NeoPixel strips.
  */
 //% weight=5 color=#2699BF icon="\uf110"
 namespace neopixel {
+
+    //% blockId="log_level" enumName="message|level"
+    //% enumName="CommunicationChannel"
+    export log ( message: string, level: LogLevel = LogLevel.Info) {
+        }
     /**
      * A NeoPixel strip
      */
