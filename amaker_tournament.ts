@@ -40,11 +40,9 @@ enum NeoPixelMode {
  */
 //% weight=5 color=#2699BF icon="\uf110"
 namespace neopixel {
+    
 
-    //% blockId="log_level" enumName="message|level"
-    //% enumName="CommunicationChannel"
-    export log ( message: string, level: LogLevel = LogLevel.Info) {
-        }
+        
     /**
      * A NeoPixel strip
      */
@@ -65,7 +63,14 @@ namespace neopixel {
     }
 
 
-
+    /**
+    * Emit a log message via communication channel
+    * @param msg string
+    * @param lvl LogLevel
+    */    
+    //% blockId=log block="message %msg|level %lvl"
+    export emit_log_message ( message: string, level: LogLevel = LogLevel.Info) {
+        }
 
     /**
      * Gets the RGB value of a known color
@@ -73,7 +78,6 @@ namespace neopixel {
     */
     //% weight=2 blockGap=8
     //% blockId="neopixel_colors" block="%color"
-
     export function colors(color: NeoPixelColors): number {
         return color;
     }
