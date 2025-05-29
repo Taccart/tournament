@@ -1,0 +1,32 @@
+{
+    "name": "amakertournament",
+    "version": "0.7.6",
+    "description": "copied from working repo",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "README.md",
+        "amaker_tournament.ts"
+
+    ],
+    "testFiles": [
+        "amaker_tournamenttest.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
